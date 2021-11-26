@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="15dp"
+    tools:targetApi="lollipop">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/foodimg"
+            android:layout_width="150dp"
+            android:layout_height="107dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/chickenbiryanidouble"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <TextView
+            android:id="@+id/foodname"
+            android:layout_width="151dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="4dp"
+            android:text="Chicken Biryani  (2pc)"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/resturant_name"
+            app:layout_constraintTop_toBottomOf="@+id/resturant_name" />
+
+        <TextView
+            android:id="@+id/foodprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="100"
+            android:textColor="#FFA000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/rating"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodname"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/resturant_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="16dp"
+            android:text="Abc Resturant"
+            android:textColor="#C1FFA000"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toEndOf="@+id/foodimg"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="8dp"
+            android:text="4.5"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="@+id/foodname"
+            app:layout_constraintTop_toBottomOf="@+id/foodname"
+            app:srcCompat="@drawable/ic_baseline_star_24" />
+
+        <ImageView
+            android:id="@+id/asian_type"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="39dp"
+            app:layout_constraintBottom_toTopOf="@+id/foodprice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/nonveg" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹"
+            android:textColor="#FFA000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/foodprice"
+            app:layout_constraintEnd_toStartOf="@+id/foodprice"
+            app:layout_constraintTop_toTopOf="@+id/foodprice" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

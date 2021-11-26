@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "594530529333",
+    "firebase_url": "https://khao-b0a83-default-rtdb.firebaseio.com",
+    "project_id": "khao-b0a83",
+    "storage_bucket": "khao-b0a83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594530529333:android:8834b7ef7ba6fcb2f8417c",
+        "android_client_info": {
+          "package_name": "com.example.khao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594530529333-6ujdvcflr7les73rpclrqr74frudsi7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khao",
+            "certificate_hash": "95f19e3c4c80bbd20cc40f3ba99b0a02dc40be58"
+          }
+        },
+        {
+          "client_id": "594530529333-fspcqcnp3l7dl0he8mehidnmqdh5iag4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLGYd45gw5KCBWqJWe7vkNz4nSUL02sG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594530529333-fspcqcnp3l7dl0he8mehidnmqdh5iag4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

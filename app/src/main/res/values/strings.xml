@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">KHAO</string>
+    <string name="todo">TODO</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="adresses_favourites_others"><![CDATA[Adresses, Favourites & Others]]></string>
+    <string name="title_activity_maps">Map</string>
+    <string name="privacy_policy"><a href="#">Privacy Policy</a></string>
+    <string name="terms"><a href="#">Terms Of Service</a></string>
+    <string name="content"><a href="#">Content Policy</a></string>
+    <string name="facebook_app_id">244532590926752</string>
+    <string name="fb_login_protocol_scheme">fb244532590926752</string>
+</resources>
